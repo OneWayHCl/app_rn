@@ -1,0 +1,22 @@
+{
+  "name": "OtherComponent",
+  "version": "0.1.0",
+  "summary": "A short description of OtherComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hcl/OtherComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hcl": "1580682761@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hcl/OtherComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "OtherComponent/Classes/**/*"
+}

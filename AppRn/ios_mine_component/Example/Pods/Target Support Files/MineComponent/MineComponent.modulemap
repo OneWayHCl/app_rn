@@ -1,0 +1,6 @@
+framework module MineComponent {
+  umbrella header "MineComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

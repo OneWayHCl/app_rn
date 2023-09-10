@@ -1,0 +1,16 @@
+PODS:
+  - iOSSwiftComponet (0.1.0)
+
+DEPENDENCIES:
+  - iOSSwiftComponet (from `../`)
+
+EXTERNAL SOURCES:
+  iOSSwiftComponet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSSwiftComponet: fa4ecff0c5171de8600a4d83b8f69c28dbfe9954
+
+PODFILE CHECKSUM: 563eb84745cb1e4ec57bf4baf11ea742adff2985
+
+COCOAPODS: 1.11.3

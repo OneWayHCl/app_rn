@@ -1,0 +1,16 @@
+PODS:
+  - HomeComponent (0.1.0)
+
+DEPENDENCIES:
+  - HomeComponent (from `../`)
+
+EXTERNAL SOURCES:
+  HomeComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HomeComponent: 54d735762eb5fade9f8e98a1c9354e0530853ba1
+
+PODFILE CHECKSUM: 8a420bdfbf19f5533a9f497ce88bced98b0ffa89
+
+COCOAPODS: 1.11.2

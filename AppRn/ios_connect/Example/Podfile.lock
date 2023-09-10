@@ -1,0 +1,16 @@
+PODS:
+  - iOSConnect (0.1.0)
+
+DEPENDENCIES:
+  - iOSConnect (from `../`)
+
+EXTERNAL SOURCES:
+  iOSConnect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSConnect: 0deb440fc01f9a3ea1440efbcc0ba58fa2d81e91
+
+PODFILE CHECKSUM: 945d05e5b4283e3590d364ecaa530653836eb4e2
+
+COCOAPODS: 1.11.2

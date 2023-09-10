@@ -1,0 +1,6 @@
+framework module Pods_iOSSwiftComponet_Example {
+  umbrella header "Pods-iOSSwiftComponet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

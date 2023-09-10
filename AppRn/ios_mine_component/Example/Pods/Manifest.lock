@@ -1,0 +1,16 @@
+PODS:
+  - MineComponent (0.1.0)
+
+DEPENDENCIES:
+  - MineComponent (from `../`)
+
+EXTERNAL SOURCES:
+  MineComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MineComponent: 1d272514d3e5f7771ea1e864e936ada72e555497
+
+PODFILE CHECKSUM: 70bc36a7302f3bd4874503f68cf3d749c53a4aaa
+
+COCOAPODS: 1.11.2

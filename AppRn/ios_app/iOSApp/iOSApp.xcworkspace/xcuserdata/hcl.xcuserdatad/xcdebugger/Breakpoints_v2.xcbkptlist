@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B4690F17-AC45-40C1-A322-6AC91229C08A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "EB5A54EF-6D79-4308-ADD8-16F05BBB2AE5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA5D622F-25FC-4D49-9FAA-DEDCF59B2A7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "964"
+            endingLineNumber = "964"
+            landmarkName = "-uiManagerWillPerformMounting:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A73CC280-59A6-43E9-9384-F63F25F4E015"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "-_keyboardWillChangeFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "452F7365-3150-4356-BE14-65FA35DFC937"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "948"
+            endingLineNumber = "948"
+            landmarkName = "-uiManagerWillPerformMounting:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11D0D6A2-33FD-4B9B-841B-985B5C92D8BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "RCT_EXPORT_METHOD(animated)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "11D0D6A2-33FD-4B9B-841B-985B5C92D8BF - 51857e664e38f6c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[RCTScrollViewManager zoomToRect:withRect:animated:]_block_invoke"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "11D0D6A2-33FD-4B9B-841B-985B5C92D8BF - 5bbec5ce411c44cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RCTScrollViewManager scrollToEnd:animated:]"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F01E0E61-8A68-4930-83AE-BD9FF95BBD7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "RCT_EXPORT_METHOD(animated)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F01E0E61-8A68-4930-83AE-BD9FF95BBD7C - 8b2ca5c27eef2aab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[RCTScrollViewManager flashScrollIndicators:]_block_invoke"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "F01E0E61-8A68-4930-83AE-BD9FF95BBD7C - 168e1c2c65a785a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RCTScrollViewManager zoomToRect:withRect:animated:]"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14673968-62B5-4310-A69B-6BFD8AF6E1AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "RCT_EXPORT_METHOD(reactTag)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "14673968-62B5-4310-A69B-6BFD8AF6E1AB - e526cc3560abfd5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RCTScrollViewManager flashScrollIndicators:]"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  uuid = "14673968-62B5-4310-A69B-6BFD8AF6E1AB - e526cc3560abf8c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RCTScrollViewManager flashScrollIndicators:]"
+                  moduleName = "React"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hcl/Desktop/MyRnApps/AppRn/ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A571ECB-E5C6-461D-ACFC-00A06A0D60B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollViewManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "RCT_EXPORT_METHOD(callback)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F59AEFD-1823-425F-93C8-4950B2F7575A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios_app_rn_main/node_modules/react-native/React/Views/ScrollView/RCTScrollView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "628"
+            endingLineNumber = "628"
+            landmarkName = "-addScrollListener:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

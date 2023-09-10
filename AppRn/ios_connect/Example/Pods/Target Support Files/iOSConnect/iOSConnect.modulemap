@@ -1,0 +1,6 @@
+framework module iOSConnect {
+  umbrella header "iOSConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}

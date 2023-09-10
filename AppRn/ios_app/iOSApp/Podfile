@@ -1,0 +1,77 @@
+
+# react native相关配置
+# 初始化本地react native目录，拉取地址分支branchName代码，rn的pod配置修改
+rnPath="../../ios_app_rn_main"
+require_relative './Podfile_ReactNative'
+initReactNative(rnPath, "feature")
+
+require_relative "#{rnPath}/node_modules/@react-native-community/cli-platform-ios/native_modules"
+require_relative "#{rnPath}/node_modules/react-native/scripts/react_native_pods"
+
+platform :ios, '11.0'
+
+inhibit_all_warnings!
+
+target 'iOSApp' do
+
+  # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # 安装react native相关依赖库
+    use_react_native!(
+        :path => "#{rnPath}/node_modules/react-native",
+    )
+    pod 'RNSentry', :path => "#{rnPath}/node_modules/@sentry/react-native/RNSentry.podspec"
+    pod 'RNScreens', :path => "#{rnPath}/node_modules/react-native-screens"
+    pod 'react-native-safe-area-context', :path => "#{rnPath}/node_modules/react-native-safe-area-context"
+  
+#  pod 'HomeComponent', :git=>'git@github.com:OneWayHCl/ios_home_component.git', :branch => 'branch/feature'
+#  pod 'OtherComponent', :git=>'git@github.com:OneWayHCl/other_component.git', :branch=>'branch/feature'
+  pod 'HomeComponent', :path=> '../../ios_home_component'
+  pod 'MineComponent', :path=> '../../ios_mine_component'
+  pod 'OtherComponent', :path=> '../../ios_other_component'
+  pod 'iOSDemo', :path=> '../../ios_demo'
+  pod 'iOSSwiftComponet', :path=> '../../ios_swift_componet'
+  pod 'iOSConnect', :path=> '../../ios_connect'
+  
+  pod 'YYModel'
+  pod 'ReactiveObjC', '~> 3.1.1'
+  pod 'AFNetworking', '~> 4.0'
+  pod 'YYCache', '1.0.4'
+  pod 'MJRefresh'
+  pod 'Masonry'
+  pod 'FDFullscreenPopGesture', '1.1'
+
+  pod 'JPFPSStatus', '~> 0.1.1'
+  pod 'LHPerformanceStatusBar'
+  pod 'ZJKitTool', '~> 2.4.7'
+  pod 'CWLateralSlide', '~> 1.6.5'
+end
+
+pre_install do |installer|
+  # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+end
+
+post_install do |installer|
+  react_native_post_install(installer)
+  __apply_Xcode_12_5_M1_post_install_workaround(installer)
+
+  # 遍历项目中所有target
+  installer.pods_project.targets.each do |target|
+    # 遍历build_configurations
+    target.build_configurations.each do |config|
+      # 开启bitcode
+      config.build_settings['ENABLE_BITCODE'] = 'YES'
+      config.build_settings['BITCODE_GENERATION_MODE'] = 'bitcode'
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
+      
+      # 解决M1芯片，模拟器编译报错的问题
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      # Xcode14 真机签名问题
+      config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      
+    end
+  end
+end

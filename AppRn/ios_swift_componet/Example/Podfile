@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'iOSSwiftComponet_Example' do
+  pod 'iOSSwiftComponet', :path => '../'
+
+  target 'iOSSwiftComponet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
